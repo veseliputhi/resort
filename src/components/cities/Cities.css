@@ -1,0 +1,76 @@
+.cities_container{
+    width: 100%;
+    position: relative;
+}
+
+.cities_container h1{
+    text-align: center;
+}
+
+
+/* .cities_container::before{
+    --height: 200px;
+
+    content: "\0000";
+    width: 100%;
+    height: var(--height);
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: calc(100vw - 64px);
+    margin-inline: auto;
+    background: var(--bg-color);
+    border-radius: var(--border-radius);
+
+    z-index: 1;
+} */
+
+.cities{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: var(--inner-margin);
+    margin: 0 auto;
+}
+
+.more_container{
+    height: 220px;
+    background: var(--downlay-color);
+    border-radius: var(--border-radius);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    transform: translateY(-58%);
+}
+
+.more_container button{
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--primary-btn-color);
+    transform: translateY(50%);
+}
+
+.more_container button:hover{
+    background-color: white;
+}
+
+.more_container i{
+    font-size: 24px;
+    color: white;
+}
+
+.more_container i:hover{
+    color: var(--primary-btn-color);
+}

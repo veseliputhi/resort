@@ -1,0 +1,34 @@
+.info_container{
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    width: var(--inner-margin);
+    margin: 0 auto;
+    position: relative;
+    top: calc(-180px/2);
+    border-radius: var(--border-radius);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_inner_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info_inner_container div{
+    flex-grow: 1;
+    margin-inline: 8px;
+}
+
+.info_inner_container:first-child{
+    flex-grow: 2;
+}
+
+.info_inner_container:last-child{
+    flex-grow: 2;
+}

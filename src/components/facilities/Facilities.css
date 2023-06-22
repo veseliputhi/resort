@@ -1,0 +1,31 @@
+.facilities_card{
+    padding: 8px 8px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facilities{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.facilities div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.facilities div i{
+    border: 1px solid red;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

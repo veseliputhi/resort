@@ -1,0 +1,59 @@
+div#img {
+    position:absolute;
+    text-align: center;
+    width:100%;
+    /* height:600px; */
+    background: #b4eaba;
+    border-radius: var(--border-radius);
+    overflow: hidden; /* hide overlaped image corners */
+    position: relative;
+}
+
+div#block {
+    position:relative;
+    width:100%;
+    /* height:600px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img { 
+    width: 100%;
+    /* height: 100%; */
+    height: 500px;
+    object-fit: cover;
+}
+
+img#resort {
+    mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+    -webkit-mask-image:-webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+div#text {
+    position: absolute;
+    left: 10%;
+    /* top: 20%; */
+    text-align: left;
+}
+
+/* @font-face {
+    font-family: "Caros-Soft";
+    src: url('Fontspring-DEMO-carossoft-bold.otf');
+} */
+
+* {
+    font-family: "Caros-Soft";
+}
+
+p#title {
+/*        font-family: "Caros-Soft"; */
+    font-size: 50pt;
+    margin-bottom: 20pt;
+}
+
+p#descr {
+    line-height: 1.75;
+    font-size: 15pt;
+}

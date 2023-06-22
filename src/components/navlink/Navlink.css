@@ -1,0 +1,17 @@
+.link {
+    margin: 0 0 4px;
+    padding: 0 0 4px;
+    position: relative;
+}
+
+.link:hover::after {
+    background-color: #d31919; 
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    /* transform: translate(-50%,0); */
+    width: 30px;
+}
